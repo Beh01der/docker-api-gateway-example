@@ -1,0 +1,25 @@
+{
+  "name": "docker-api-gateway-example",
+  "version": "1.0.0",
+  "description": "This project is a simple example of API Gateway pattern for microservices implemented in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beh01der/docker-api-gateway-example.git"
+  },
+  "keywords": [],
+  "author": "Andrey Chausenko <andrey.chausenko@gmail.com> (https://memz.co)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Beh01der/docker-api-gateway-example/issues"
+  },
+  "homepage": "https://github.com/Beh01der/docker-api-gateway-example#readme",
+  "dependencies": {
+    "http-proxy": "1.13.2",
+    "node-docker-monitor": "1.0.4",
+    "parseurl": "1.3.1"
+  }
+}
