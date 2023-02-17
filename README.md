@@ -2,8 +2,6 @@
 
 This project is a simple example of API Gateway pattern for [microservices](http://microservices.io/patterns/apigateway.html) implemented in Node.js.
 
-More details about this project https://memz.co/api-gateway-microservices-docker-node-js/
-
 It's **not production-ready** service and its sole purpose is to demonstrate usage of **node-docker-monitor** and **http-proxy** npm modules.
 
 Service reacts on Docker events and as Docker containers go up and down, it creates or removes HTTP routing rules for them. 
@@ -39,5 +37,3 @@ $ curl 127.0.0.1/service1
 Hello World!
 I am service 1!
 ```
-
-Find out more about docker-api-gateway-example [here](https://memz.co/api-gateway-microservices-docker-node-js/)
